@@ -1,0 +1,23 @@
+{
+  "name": "flextype-components/curl",
+  "keywords": ["curl"],
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://github.com/flextype-components/curl",
+  "description": "The Curl Component contains methods that makes it easy to send HTTP requests and integrate with web APIs.",
+  "authors": [
+    {
+        "name": "Sergey Romanenko",
+        "email": "awilum@yandex.ru"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/flextype-components/curl/issues"
+  },
+  "require": {
+      "php": "^7.1.3"
+  },
+  "autoload": {
+      "psr-4": { "Flextype\\Component\\Curl\\": "" }
+  }
+}
